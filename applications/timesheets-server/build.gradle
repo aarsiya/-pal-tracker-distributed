@@ -1,5 +1,6 @@
 apply from: "$projectDir/../server.gradle"
 
 dependencies {
-    compile project(":components:timesheets")
+    compile project(":components:timesheets")    
+    compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
 }
